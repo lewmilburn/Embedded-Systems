@@ -16,20 +16,20 @@ int main()
     { 
         //The code between the { curly braces } is the code that is repeated forever
 
-        // Sequence 1
+        // Sequence 1 - Red and green
         redLED = 1; 
         greenLED = 1; 
         blueLED = 0;
 
         // Wait 0.2 second (1 million microseconds)
-        wait_us(500000); 
+        wait_us(500000);
 
-        // Turn LED OFF
+        // Sequence 2 - Blue
         redLED = 0; 
         greenLED = 0; 
         blueLED = 1;
 
         // Wait 0.2 second
-        wait_us(500000); 
+        wait_us(500000);
     }
 }
