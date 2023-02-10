@@ -60,14 +60,14 @@ int main()
 }
 ```
 
-| **TASK 201** |
-| --- |
-| Read all the comments in the code. |
-| 1. Build and run Task 201. |
-| 2. Now run the code in debug mode (single step) |
-| 3. What is the state of the red LED **before** the code enters main? |
-| 4. Modify the code so that all the LEDs are on at the start of main |
-| 5. Find the traffic lights in the schematics. Confirm these are compatible with PUSH-PULL outputs |
+| **TASK 201** | Answers |
+| --- | --- |
+| Read all the comments in the code. | --- |
+| 1. Build and run Task 201. | Done |
+| 2. Now run the code in debug mode (single step) | Done |
+| 3. What is the state of the red LED **before** the code enters main? | On (1) |
+| 4. Modify the code so that all the LEDs are on at the start of main | Done |
+| 5. Find the traffic lights in the schematics. Confirm these are compatible with PUSH-PULL outputs | Done |
 | |
 
 In the example above, pins `PC_2`, `PC_3` and `PC_6` were configured as push-pull outputs.
